@@ -24,7 +24,7 @@ def _evenly_spaced_indices(n, seq_len, is_train, clip_idx=0, clip_count=1):
 
 class MultimodalPersonalityDataset(Dataset):
     """
-    Matches Code-1:
+    
      - evenly spaced temporal sampling (random offset for train, K even offsets for val)
      - text via your local BERT path
     """
